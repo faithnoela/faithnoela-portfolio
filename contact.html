@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Feedback Survey</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html" class="active">Survey</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>how do you rate your experience on this website?</legend>
+        <label><input type="radio" name="experience" value="good" required> good</label>
+        <label><input type="radio" name="experience" value="average"> average</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>what did you like the most?</legend>
+        <label><input type="checkbox" name="liked" value="design"> website design</label>
+        <label><input type="checkbox" name="liked" value="content"> content quality</label>
+      </fieldset>
+
+      <label for="comments">Other comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Faithnoela George Shengena</p>
+  </footer>
+</body>
+</html>
